@@ -545,6 +545,11 @@ img {
   display: block;
 }
 
+.modal-input-container {
+  position: relative;
+  
+}
+
 .modal-input {
   border-radius: 4px;
   width: 360px;
