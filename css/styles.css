@@ -532,14 +532,17 @@ img {
   color: #2E2F42;
 }
 
-.modal-form {
+.modal-container {
   margin-bottom: 8px;
 }
 
 .modal-label {
   color: #8e8f99;
   font-size: 12px;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  display: block;
 }
 
 .modal-input {
