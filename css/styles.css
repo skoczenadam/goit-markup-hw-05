@@ -606,13 +606,7 @@ img {
   color: #8e8f99;
   line-height: 1.6667;
   letter-spacing: 0.04em;
-}
-
-.modal-link {
-  line-height: 1.33333;
-  text-decoration: underline;
-  text-decoration-skip-ink: none;
-  color: #4d5ae5;
+  line-height: 1.17;
 }
 
 .modal-checkbox {
