@@ -257,7 +257,7 @@ img {
 
 .social-links {
   display: flex;
-  margin: 0 16px 32px 16px;
+  padding: 8px 16px 0 16px;
   gap: 24px;
   justify-content: center;
 }
@@ -285,7 +285,7 @@ img {
 
 .social-icon {
   width: 40px;
-  height: 40px;
+  height: 15px;
   background-color: #4F5AE5;
   fill: #f4f4fd;
   border-radius: 50%;
@@ -661,5 +661,5 @@ img {
 }
 
 .display-none {
-  /* display: none; */
+  display: none;
 }
