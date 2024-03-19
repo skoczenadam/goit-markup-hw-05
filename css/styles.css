@@ -614,7 +614,7 @@ img {
 }
 
 .modal-checkbox {
-  margin-right: 4px;
+  /* margin-right: 4px; */
   width: 16px;
   height: 16px;
   border-radius: 2px;
