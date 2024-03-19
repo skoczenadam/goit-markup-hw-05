@@ -587,10 +587,18 @@ img {
   height: 120px;
   resize: none;
   padding-left: 16px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
 }
 
 .modal-textarea::placeholder {
   color: rgba(46, 47, 66, 0.4);
+}
+
+.modal-policy-container {
+  margin-bottom: 24px;
 }
 
 .modal-policy {
