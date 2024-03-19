@@ -481,7 +481,6 @@ img {
   width: 408px;
   min-height: 584px;
   background-color: #fff;
-  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
