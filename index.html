@@ -372,7 +372,7 @@
           <div class="modal-container">
             <label class="modal-label" for="user-name"> Name </label>
             <div class="modal-input-container">
-              <input name="user-name" class="modal-input" type="text" />
+              <input id="user-name" name="user-name" class="modal-input" type="text" />
               <svg class="social-icon-modal" width="18" height="24">
                 <use href="./images/icons.svg#person-black-18dp-1"></use>
               </svg>
@@ -396,11 +396,9 @@
               </svg>
             </div>
           </div>
-          <div class="modal-container">
-            <label class="modal-label" for="Comment">
-              Comment
-              <textarea id="Comment" class="modal-input modal-textarea" type="text" placeholder="Text input"></textarea>
-            </label>
+          <div class="modal-container-textarea">
+            <label class="modal-label" for="user-comment"> Comment </label>
+            <textarea id="Comment" class="modal-input modal-textarea" type="text" placeholder="Text input"></textarea>
           </div>
           <label class="modal-policy" name="policy"></label>
           <input name="policy" class="modal-checkbox" type="checkbox" />I accept the terms and conditions of the <a class="modal-policy modal-link">Privacy Policy</a>

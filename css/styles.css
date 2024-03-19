@@ -578,6 +578,10 @@ img {
   fill: #4D5AE5;
 }
 
+.modal-container-textarea {
+  margin-bottom: 16px;
+}
+
 .modal-textarea {
   width: 360px;
   height: 120px;
