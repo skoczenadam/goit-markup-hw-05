@@ -495,31 +495,33 @@ img {
 }
 
 .close-button {
+  position: absolute;
   width: 24px;
   height: 24px;
-  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   top: 24px;
   right: 24px;
   border-radius: 50%;
-  border: 1px solid #ccc;
-  background-color: #eee;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #e7e9fc;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon-close {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-button:hover {
+.close-button:hover,
+.close-button:focus {
   background-color: #404bbf;
+  border: none;
 }
 
-.close-button:hover .social-icon-close {
+.close-button:hover .social-icon-close,
+.close-button:focus .social-icon-close {
   fill: #fff;
 }
 
